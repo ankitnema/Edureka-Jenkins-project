@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== -->
+<!-- Ant build file (http://ant.apache.org/) for Ant 1.7.2 or above.        -->
+<!-- ====================================================================== -->
+
+<project name="utilities" default="pmd" basedir="." 
+			xmlns:artifact="antlib:org.apache.maven.artifact.ant"
+			xmlns:ac="antlib:net.sf.antcontrib"   
+			xmlns:sonar="antlib:org.sonar.ant">
+		<echo>The system time with format</echo>
+	<tstamp>
+		<format property="MYTIME" pattern="yyyyMMddHHmmss"/>
+	</tstamp>
+
+	 <!-- ====================================================================== -->
+	 <!-- Defining classpaths & Task Defs                                        -->
+	 <!-- ====================================================================== -->
+	<property file="build.properties" />
+	
+		<path id="cobertura.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="cobertura*.jar" />
+			<include name="/**/*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
+		
+  <!-- ====================================================================== -->
+  <!-- Build environment properties                                           -->
+  <!-- ====================================================================== -->
+
+	<property name="cobertura.jar.file" value="${lib.dir}/cobertura-2.1.1.jar" />
+	<property name="src.dir" value="src/main" />
+	<property name="src.tests.dir" value="src/test" />
+	<property name="cob.ser.file" value="cobertura.ser" />
+	<property name="dest.dir" value="target" />
+	<property name="dest.dir.classes" value="${dest.dir}/classes" />
+	<property name="dest.dir.lib" value="${dest.dir.classes}/lib" />
+	<property name="package.file" value="${dest.dir}/${package.name}" />
+	
+	<!-- cobertura properties -->
+	<property name="cobertura.dir" value="cobertura" />
+	<property name="cob.instrumented.dir" value="${cobertura.dir}/instrumented" />
+	<property name="cob.reports.dir" value="${cobertura.dir}/reports" />
+	<property name="cob.reports.xml.dir" value="${cob.reports.dir}/junit-xml" />
+	<property name="cob.reports.html.dir" value="${cob.reports.dir}/junit-html" />
+	<property name="cob.coverage.xml.dir" value="${cob.reports.dir}/cobertura-xml" />
+	<property name="cob.coverage.html.dir" value="${cob.reports.dir}/cobertura-html" />
+	
+	<path id="build.class.path">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<target name="clean">
+		<delete dir="${dest.dir}" />
+		<delete dir="${reports.dir}" />
+		<delete dir="${cobertura.dir}" />
+		<delete file="${cob.ser.file}" />
+	</target>
+	<target name="prepare" depends="clean">
+		<mkdir dir="${dest.dir}" />
+		<mkdir dir="${dest.dir.classes}" />
+		<mkdir dir="${dest.dir.classes}/META-INF" />
+		<mkdir dir="${reports.dir}" />
+		<!-- cobertura directories -->
+		<mkdir dir="${cobertura.dir}" />
+		<mkdir dir="${cob.instrumented.dir}" />
+		<mkdir dir="${cob.reports.xml.dir}" />
+		<mkdir dir="${cob.reports.html.dir}" />
+		<mkdir dir="${cob.coverage.xml.dir}" />
+		<mkdir dir="${cob.coverage.html.dir}" />
+	</target>
+	
+	
+	<target name="compile" depends="prepare">
+		<echo>=== COMPILE ===</echo>
+		<echo>Compiling ${src.dir} files ...</echo>
+		<javac debug="on" srcdir="${src.dir}" destdir="${dest.dir.classes}" includes="com/**">
+			<classpath refid="build.class.path" />
+			<!-- classpath refid="cobertura.classpath" -->
+		</javac>
+		<!-- compile files on the src-tests path -->
+		<echo>Compiling ${src.tests.dir} files ...</echo>
+		<javac debug="on" srcdir="${src.tests.dir}" destdir="${dest.dir.classes}" includes="com/**">
+			<classpath refid="build.class.path" />
+			<!-- classpath refid="cobertura.classpath" -->
+		</javac>
+	</target>
+	<!-- cobertura task definition -->
+	<path id="cobertura.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="${cobertura.jar.file}" />
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
+	<target name="instrument" depends="compile">
+		<cobertura-instrument todir="${cob.instrumented.dir}">
+			<fileset dir="${dest.dir.classes}">
+				<include name="**/*.class"/>
+			</fileset>
+		</cobertura-instrument>
+	</target>
+	<target name="cover-test" depends="instrument">
+		<junit dir="C:\Junit\junit4.10" failureproperty="test.failure" printsummary="yes"
+			fork="true" haltonerror="true">
+			<classpath location="C:\Junit\junit4.10\junit-4.10.jar"/>
+			<classpath location="${cobertura.jar.file}"/>
+			<classpath location="${cob.instrumented.dir}"/>
+			<classpath>
+				<path refid="build.class.path"/>
+			</classpath>
+			<batchtest fork="yes" todir="${reports.dir}">
+				<fileset dir="${cob.instrumented.dir}">
+					<include name="**/Test*"/>
+					<include name="**/*Tests*"/>
+					<include name="org/jaxen/javabean/*Test*" />
+					<exclude name="**/TestingUtils*"/>
+					<exclude name="**/AllTests*"/>
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+	<!--run this target to generate the coverage reports -->
+	<target name="coverage-report" depends="cover-test">
+		<cobertura-report srcdir="${src.dir}" destdir="${cobertura.dir}"/>
+	</target>
+	<!--PMD report generation target -->
+	<path id="pmd.classpath">
+	<pathelement location="org.apache.maven.model.Build@552297d7"/>
+    <fileset dir="C:\pmd-bin-6.20.0\lib">
+        <include name="*.jar"/>
+    </fileset>
+	</path>
+	<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath" />
+	<target name="pmd" depends="coverage-report">
+    	<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath" />
+		<pmd rulesetfiles="basic" shortFilenames="true">
+		<formatter type="xml" toFile="target/pmd.xml"/>
+        <fileset dir="/usr/local/j2sdk1.4.1_01/src/">
+            <include name="**/*.java"/>
+        </fileset>
+    </pmd>
+	</target>
+	
+</project>
