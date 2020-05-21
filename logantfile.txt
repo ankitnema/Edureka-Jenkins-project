@@ -1,0 +1,861 @@
+Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+Trying the default build file: build.xml
+Buildfile: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\build.xml
+Adding reference: ant.PropertyHelper
+Detected Java version: 1.8 in: C:\Program Files\Java\jdk1.8.0_231\jre
+Detected OS: Windows 7
+Adding reference: ant.ComponentHelper
+Setting ro project property: ant.file -> E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\build.xml
+Setting ro project property: ant.file.type -> file
+Setting ro project property: ant.project.invoked-targets -> 
+Adding reference: ant.projectHelper
+Adding reference: ant.parsing.context
+Adding reference: ant.targets
+parsing buildfile E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\build.xml with URI = file:/E:/edureka/jenkins%20assesment/demojar_v.1.0/demojar-master/build.xml
+Setting ro project property: ant.project.name -> utilities
+Adding reference: utilities
+Setting ro project property: ant.project.default-target -> zip
+Setting ro project property: ant.file.utilities -> E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\build.xml
+Setting ro project property: ant.file.type.utilities -> file
+Project base dir set to: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master
+ +Target: 
+ +Target: clean
+ +Target: maven_dep_copy
+ +Target: compile
+ +Target: compile-tests
+ +Target: test
+ +Target: test-junit-present
+ +Target: test-junit-status
+ +Target: junit-missing
+ +Target: javadoc
+ +Target: package
+ +Target: jar
+ +Target: zip
+ +Target: test-offline
+ +Target: install
+ +Target: sonar
+Adding reference: ant.LocalProperties
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+     [echo] The system time with format
+Setting project property: MYTIME -> 20191221132718
+Setting project property: DSTAMP -> 20191221
+Setting project property: TSTAMP -> 1327
+Setting project property: TODAY -> December 21 2019
+ [property] Loading Environment env.
+Setting project property: env.NUMBER_OF_PROCESSORS -> 2
+Setting project property: env.TERM -> xterm
+Setting project property: env.PWD -> /cygdrive/e/edureka/jenkins assesment/demojar_v.1.0/demojar-master
+Setting project property: env.LANG -> en_US.UTF-8
+Setting project property: env.USERPROFILE -> C:\Users\ankit
+Setting project property: env.FP_NO_HOST_CHECK -> NO
+Setting project property: env.HOME -> C:\cygwin64\home\ankit
+Setting project property: env.MINTTY_SHORTCUT -> /cygdrive/c/ProgramData/Microsoft/Windows/Start Menu/Programs/Cygwin/Cygwin64 Terminal.lnk
+Setting project property: env.PROCESSOR_ARCHITECTURE -> AMD64
+Setting project property: env.CLASSPATH -> %CLASSPATH%;%JUNIT_JOME%/junit4.10.jar;%JUNIT_JOME%/junit4.10.jar;%JUNIT_JOME%/junit4.10.jar
+Setting project property: env.CommonProgramW6432 -> C:\Program Files\Common Files
+Setting project property: env.COMMONPROGRAMFILES -> C:\Program Files\Common Files
+Setting project property: env.OS -> Windows_NT
+Setting project property: env.USERDOMAIN -> ankit-PC
+Setting project property: env.SYSTEMROOT -> C:\Windows
+Setting project property: env.=:: -> ::\
+Setting project property: env.COMSPEC -> C:\Windows\system32\cmd.exe
+Setting project property: env.PRINTER -> Microsoft XPS Document Writer
+Setting project property: env.JAVA_HOME -> C:/Program Files/Java/jdk1.8.0_231
+Setting project property: env.ORIGINAL_PATH -> /cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/Lenovo/Bluetooth Software:/cygdrive/c/Program Files/Lenovo/Bluetooth Software/syswow64:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files/Java/jdk1.8.0_231/bin:/cygdrive/c/apache-ant-1.10.7/bin:/cygdrive/c/apache-maven-3.6.2-bin/apache-maven-3.6.2/bin:/cygdrive/c/Program Files/Java/jdk1.8.0_231/bin
+Setting project property: env.PROGRAMFILES -> C:\Program Files
+Setting project property: env.ALLUSERSPROFILE -> C:\ProgramData
+Setting project property: env.SESSIONNAME -> Console
+Setting project property: env.PROFILEREAD -> true
+Setting project property: env.TZ -> Asia/Kolkata
+Setting project property: env.MAVEN_HOME -> C:\apache-maven-3.6.2-bin\apache-maven-3.6.2
+Setting project property: env.LOCALAPPDATA -> C:\Users\ankit\AppData\Local
+Setting project property: env.ANT_HOME -> C:/apache-ant-1.10.7
+Setting project property: env.PROCESSOR_REVISION -> 2505
+Setting project property: env.PSModulePath -> C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+Setting project property: env.PROCESSOR_IDENTIFIER -> Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+Setting project property: env.PATH -> C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Lenovo\Bluetooth Software;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\apache-ant-1.10.7\bin;C:\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_231\bin
+Setting project property: env.ProgramW6432 -> C:\Program Files
+Setting project property: env.PUBLIC -> C:\Users\Public
+Setting project property: env.CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+Setting project property: env.PATHEXT -> .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Setting project property: env.PHP_FCGI_MAX_REQUESTS -> 0
+Setting project property: env.COMPUTERNAME -> ANKIT-PC
+Setting project property: env.HOSTNAME -> ankit-PC
+Setting project property: env.SHELL -> /bin/bash
+Setting project property: env.SYSTEMDRIVE -> C:
+Setting project property: env.HOMEPATH -> \Users\ankit
+Setting project property: env.SHLVL -> 1
+Setting project property: env.APPDATA -> C:\Users\ankit\AppData\Roaming
+Setting project property: env.JUNIT_HOME -> C:\Junit\junit4.10
+Setting project property: env.ProgramData -> C:\ProgramData
+Setting project property: env.VBOX_MSI_INSTALL_PATH -> C:\Program Files\Oracle\VirtualBox\
+Setting project property: env.USERNAME -> ankit
+Setting project property: env.HOMEDRIVE -> C:
+Setting project property: env.PROCESSOR_LEVEL -> 6
+Setting project property: env.TMP -> C:\cygwin64\tmp
+Setting project property: env.EXECIGNORE -> *.dll
+Setting project property: env.ProgramFiles(x86) -> C:\Program Files (x86)
+Setting project property: env.LOGONSERVER -> \\ANKIT-PC
+Setting project property: env.INFOPATH -> /usr/local/info:/usr/share/info:/usr/info
+Setting project property: env.TEMP -> C:\cygwin64\tmp
+Setting project property: env.WINDIR -> C:\Windows
+Setting project property: env.USER -> ankit
+Setting project property: env.OLDPWD -> /cygdrive/e/edureka/jenkins assesment/demojar_v.1.0
+     [echo] Define classpath
+Adding reference: maven-ant-tasks.classpath
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml from a zip file
+Class org.apache.maven.artifact.ant.DependenciesTask loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:dependencies org.apache.maven.artifact.ant.DependenciesTask
+Class org.apache.maven.artifact.ant.InstallTask loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:install org.apache.maven.artifact.ant.InstallTask
+Class org.apache.maven.artifact.ant.DeployTask loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:deploy org.apache.maven.artifact.ant.DeployTask
+Class org.apache.maven.artifact.ant.InstallWagonProviderTask loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:install-provider org.apache.maven.artifact.ant.InstallWagonProviderTask
+Class org.apache.maven.artifact.ant.Mvn loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:mvn org.apache.maven.artifact.ant.Mvn
+Class org.apache.maven.artifact.ant.WritePomTask loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:writepom org.apache.maven.artifact.ant.WritePomTask
+Class org.apache.maven.artifact.ant.LocalRepository loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:localRepository org.apache.maven.artifact.ant.LocalRepository
+Class org.apache.maven.artifact.ant.RemoteRepository loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:remoteRepository org.apache.maven.artifact.ant.RemoteRepository
+Class org.apache.maven.artifact.ant.Authentication loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:authentication org.apache.maven.artifact.ant.Authentication
+Class org.apache.maven.artifact.ant.Proxy loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:proxy org.apache.maven.artifact.ant.Proxy
+Class org.apache.maven.artifact.ant.Pom loaded from parent loader (parentFirst)
+ +Datatype antlib:org.apache.maven.artifact.ant:pom org.apache.maven.artifact.ant.Pom
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml from a zip file
+Adding reference: ant.contrib.classpath
+dropping E:\lib\ant-contrib-0.6.jar from path as it doesn't exist
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml from a zip file
+Class org.apache.maven.artifact.ant.DependenciesTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.InstallTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.DeployTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.InstallWagonProviderTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Mvn loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.WritePomTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.LocalRepository loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.RemoteRepository loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Authentication loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Proxy loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Pom loaded from parent loader (parentFirst)
+dropping E:\lib\ant-contrib-0.6.jar from path as it doesn't exist
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/ant-contrib-0.6.jar!/net/sf/antcontrib/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/ant-contrib-0.6.jar!/net/sf/antcontrib/antlib.xml from a zip file
+Class net.sf.antcontrib.platform.ShellScriptTask loaded from parent loader (parentFirst)
+ +Datatype shellscript net.sf.antcontrib.platform.ShellScriptTask
+Class net.sf.antcontrib.property.PropertyCopy loaded from parent loader (parentFirst)
+ +Datatype propertycopy net.sf.antcontrib.property.PropertyCopy
+Class net.sf.antcontrib.property.PathToFileSet loaded from parent loader (parentFirst)
+ +Datatype pathtofileset net.sf.antcontrib.property.PathToFileSet
+Class net.sf.antcontrib.logic.RunTargetTask loaded from parent loader (parentFirst)
+ +Datatype runtarget net.sf.antcontrib.logic.RunTargetTask
+Class net.sf.antcontrib.antserver.client.ClientTask loaded from parent loader (parentFirst)
+ +Datatype remoteant net.sf.antcontrib.antserver.client.ClientTask
+Class net.sf.antcontrib.property.RegexTask loaded from parent loader (parentFirst)
+ +Datatype propertyregex net.sf.antcontrib.property.RegexTask
+Class net.sf.antcontrib.logic.Assert loaded from parent loader (parentFirst)
+ +Datatype assert net.sf.antcontrib.logic.Assert
+Class net.sf.antcontrib.property.MathTask loaded from parent loader (parentFirst)
+ +Datatype math net.sf.antcontrib.property.MathTask
+Class net.sf.antcontrib.logic.TryCatchTask loaded from parent loader (parentFirst)
+ +Datatype trycatch net.sf.antcontrib.logic.TryCatchTask
+Class net.sf.antcontrib.antserver.server.ServerTask loaded from parent loader (parentFirst)
+ +Datatype antserver net.sf.antcontrib.antserver.server.ServerTask
+Class net.sf.antcontrib.logic.AntCallBack loaded from parent loader (parentFirst)
+ +Datatype antcallback net.sf.antcontrib.logic.AntCallBack
+Class net.sf.antcontrib.walls.CompileWithWalls loaded from parent loader (parentFirst)
+ +Datatype compilewithwalls net.sf.antcontrib.walls.CompileWithWalls
+Class net.sf.antcontrib.logic.OutOfDate loaded from parent loader (parentFirst)
+ +Datatype outofdate net.sf.antcontrib.logic.OutOfDate
+Class net.sf.antcontrib.platform.OsFamily loaded from parent loader (parentFirst)
+ +Datatype osfamily net.sf.antcontrib.platform.OsFamily
+Class net.sf.antcontrib.perf.StopWatchTask loaded from parent loader (parentFirst)
+ +Datatype stopwatch net.sf.antcontrib.perf.StopWatchTask
+Class net.sf.antcontrib.logic.Throw loaded from parent loader (parentFirst)
+ +Datatype throw net.sf.antcontrib.logic.Throw
+Class net.sf.antcontrib.antclipse.ClassPathTask loaded from parent loader (parentFirst)
+ +Datatype antclipse net.sf.antcontrib.antclipse.ClassPathTask
+Class net.sf.antcontrib.property.URLEncodeTask loaded from parent loader (parentFirst)
+ +Datatype urlencode net.sf.antcontrib.property.URLEncodeTask
+Class net.sf.antcontrib.logic.TimestampSelector loaded from parent loader (parentFirst)
+ +Datatype timestampselector net.sf.antcontrib.logic.TimestampSelector
+Class net.sf.antcontrib.logic.condition.BooleanConditionTask loaded from parent loader (parentFirst)
+ +Datatype bool net.sf.antcontrib.logic.condition.BooleanConditionTask
+Class net.sf.antcontrib.logic.IfTask loaded from parent loader (parentFirst)
+ +Datatype if net.sf.antcontrib.logic.IfTask
+Class net.sf.antcontrib.logic.ForEach loaded from parent loader (parentFirst)
+ +Datatype foreach net.sf.antcontrib.logic.ForEach
+Class net.sf.antcontrib.property.PropertySelector loaded from parent loader (parentFirst)
+ +Datatype propertyselector net.sf.antcontrib.property.PropertySelector
+Class net.sf.antcontrib.property.SortList loaded from parent loader (parentFirst)
+ +Datatype sortlist net.sf.antcontrib.property.SortList
+Class net.sf.antcontrib.logic.AntFetch loaded from parent loader (parentFirst)
+ +Datatype antfetch net.sf.antcontrib.logic.AntFetch
+Class net.sf.antcontrib.net.PostTask loaded from parent loader (parentFirst)
+ +Datatype post net.sf.antcontrib.net.PostTask
+Class net.sf.antcontrib.logic.For loaded from parent loader (parentFirst)
+ +Datatype for net.sf.antcontrib.logic.For
+Class net.sf.antcontrib.process.ForgetTask loaded from parent loader (parentFirst)
+ +Datatype forget net.sf.antcontrib.process.ForgetTask
+Class net.sf.antcontrib.logic.Switch loaded from parent loader (parentFirst)
+ +Datatype switch net.sf.antcontrib.logic.Switch
+Class net.sf.antcontrib.process.Limit loaded from parent loader (parentFirst)
+ +Datatype limit net.sf.antcontrib.process.Limit
+Class net.sf.antcontrib.property.Variable loaded from parent loader (parentFirst)
+ +Datatype var net.sf.antcontrib.property.Variable
+Class net.sf.antcontrib.inifile.IniFileTask loaded from parent loader (parentFirst)
+ +Datatype inifile net.sf.antcontrib.inifile.IniFileTask
+Class net.sf.antcontrib.logic.condition.IsGreaterThan loaded from parent loader (parentFirst)
+ +Datatype isgreaterthan net.sf.antcontrib.logic.condition.IsGreaterThan
+Class net.sf.antcontrib.logic.condition.IsLessThan loaded from parent loader (parentFirst)
+ +Datatype islessthan net.sf.antcontrib.logic.condition.IsLessThan
+Class net.sf.antcontrib.logic.condition.IsPropertyFalse loaded from parent loader (parentFirst)
+ +Datatype ispropertyfalse net.sf.antcontrib.logic.condition.IsPropertyFalse
+Class net.sf.antcontrib.logic.condition.IsPropertyTrue loaded from parent loader (parentFirst)
+ +Datatype ispropertytrue net.sf.antcontrib.logic.condition.IsPropertyTrue
+Setting project property: environment.type.default -> dev
+Class org.apache.tools.ant.taskdefs.condition.Equals loaded from parent loader (parentFirst)
+Property "basesrcdir" has not been set
+Setting project property: build.basesrcdir -> .
+Property "buildtype" has not been set
+Setting project property: maven.build.resourceDir -> ./src/main/resources/dev
+Setting project property: actualbuildtype -> dev
+     [echo] resource dir: ./src/main/resources/dev, Source Dir: ./src/main/java
+ [property] Loading E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\build.properties
+Property "maven.build.dir" has not been set
+Property "maven.build.outputDir" has not been set
+Setting project property: maven.build.version -> V1.0
+Setting project property: project.build.directory -> ${maven.build.dir}
+Setting project property: maven.test.skip -> false
+Setting project property: project.build.sourceEncoding -> UTF-8
+Setting project property: project.build.outputDirectory -> ${maven.build.outputDir}
+Override ignored for property "build.basesrcdir"
+Setting project property: maven.repo.local -> e:/repos
+Override ignored for property "ant.home"
+Setting project property: maven.settings.offline -> false
+Setting project property: maven.settings.interactiveMode -> false
+parsing buildfile jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml with URI = jar:file:/C:/apache-ant-1.10.7/lib/maven-ant-tasks-2.1.3.jar!/org/apache/maven/artifact/ant/antlib.xml from a zip file
+Class org.apache.maven.artifact.ant.DependenciesTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.InstallTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.DeployTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.InstallWagonProviderTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Mvn loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.WritePomTask loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.LocalRepository loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.RemoteRepository loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Authentication loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Proxy loaded from parent loader (parentFirst)
+Class org.apache.maven.artifact.ant.Pom loaded from parent loader (parentFirst)
+Adding reference: pom
+[artifact:pom] Maven Ant Tasks version: 2.1.3
+Adding reference: org.codehaus.plexus.PlexusContainer
+Setting project property: actualbuildname -> utilities
+Setting project property: actualversion -> 1.47.0
+     [echo] Artifact ID/Version: utilities/1.47.0
+Property "version" has not been set
+Setting project property: build.version -> ${version}
+Setting project property: maven.build.finalName -> utilities-1.47.0
+Setting project property: maven.build.dir -> ./target
+Setting project property: maven.build.outputDir -> ./target/classes
+Setting project property: maven.build.srcDir -> ./src/main/java
+Setting project property: maven.build.testDir -> ./src/test/java
+Setting project property: maven.build.testResourceDir -> ./src/test/resources
+Setting project property: maven.build.testOutputDir -> ./target/test-classes
+Setting project property: maven.test.reports -> ./target/test-reports
+Setting project property: maven.reporting.outputDirectory -> reports
+Setting project property: project.3rdpartylibdir -> ./lib
+Setting project property: maven.build.pmddir -> ./src/main/pmd
+Property "env.SONAR_URL" has not been set
+Setting project property: sonar.host.url -> ${env.SONAR_URL}
+Property "env.SONAR_DBSERVER" has not been set
+Property "env.SONAR_DBPORT" has not been set
+Property "env.SONAR_DBNAME" has not been set
+Setting project property: sonar.jdbc.url -> jdbc:mysql://${env.SONAR_DBSERVER}:${env.SONAR_DBPORT}/${env.SONAR_DBNAME}?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance
+Property "env.SONAR_DBUSER" has not been set
+Setting project property: sonar.jdbc.username -> ${env.SONAR_DBUSER}
+Property "env.SONAR_DBPASSWORD" has not been set
+Setting project property: sonar.jdbc.password -> ${env.SONAR_DBPASSWORD}
+Setting project property: sonar.projectKey -> utilities
+Setting project property: sonar.projectName -> utilities
+Setting project property: sonar.projectVersion -> 1.47.0
+Setting project property: sonar.sources -> ./src/main/java
+Adding reference: libpath
+Adding reference: build.test.classpath
+     [echo] ***************************************************************************
+     [echo] Start the build for: utilities 
+     [echo] Base Dir: . dev
+    [mkdir] Skipping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib because it already exists.
+     [echo] ***************************************************************************
+     [echo] Skip Test? false
+Setting ro project property: ant.project.invoked-targets -> zip
+Attempting to create object of type org.apache.tools.ant.helper.DefaultExecutor
+Adding reference: ant.executor
+Build sequence for target(s) `zip' is [clean, maven_dep_copy, compile, compile-tests, test, package, zip]
+Complete build sequence is [clean, maven_dep_copy, compile, compile-tests, test, package, zip, install, test-junit-present, sonar, test-offline, jar, test-junit-status, junit-missing, javadoc, ]
+
+clean:
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\Dateformat.properties
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\helper\GenericResourceBundle.class
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\helper
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\CaseInsensitiveComparator.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\GenericComparator$1.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\GenericComparator$CompareMode.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\GenericComparator.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\HexAsciiConvertor.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\LoggerStackTraceUtil.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\PrepareTargetMethod.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\PropertyHelper.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\PropertyLoader.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities\StringUtilities.class
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo\utilities
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org\demo
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\org
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities\ExceptionThrower.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities\TestGenericComparator.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities\TestHexAsciiConversion.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities\TestLogger.class
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities\UnitDTO.class
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo\utilities
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org\demo
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes\org
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestGenericComparator.xml
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestHexAsciiConversion.xml
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestLogger.xml
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\utilities-1.47.0.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\utilities-1.47.0.zip
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+
+maven_dep_copy:
+[artifact:dependencies] Maven Ant Tasks version: 2.1.3
+[artifact:dependencies] Using local repository: C:\Users\ankit\.m2\repository
+[artifact:dependencies] Resolving dependencies...
+[artifact:dependencies] Using remote repositories:
+  - id=central, url=http://repo1.maven.org/maven2, releases=enabled, snapshots=disabled
+  org.demo:utilities:jar:1.47.0 (selected)
+    junit:junit:jar:4.11:test (selected)
+      org.hamcrest:hamcrest-core:jar:1.3:test (selected)
+    commons-httpclient:commons-httpclient:jar:3.1:compile (selected)
+      commons-logging:commons-logging:jar:1.0.4:compile (selected)
+      commons-codec:commons-codec:jar:1.2:compile (selected)
+    org.apache.commons:commons-lang3:jar:3.1:compile (selected)
+    org.json:json:jar:20140107:compile (selected)
+    org.codehaus.jackson:jackson-jaxrs:jar:1.9.4:compile (selected)
+      org.codehaus.jackson:jackson-core-asl:jar:1.9.4:compile (selected)
+      org.codehaus.jackson:jackson-mapper-asl:jar:1.9.4:compile (selected)
+        org.codehaus.jackson:jackson-core-asl:jar:1.9.4:compile (removed - nearer found: 1.9.4)
+    org.slf4j:slf4j-api:jar:1.7.25:compile (selected)
+    org.slf4j:slf4j-log4j12:jar:1.7.25:compile (selected)
+      org.slf4j:slf4j-api:jar:1.7.25:compile (removed - nearer found: 1.7.25)
+      log4j:log4j:jar:1.2.17:compile (selected)
+    log4j:log4j:jar:1.2.17:compile (removed - nearer found: 1.2.15)
+    log4j:log4j:jar:1.2.15:compile (selected)
+      javax.mail:mail:jar:1.4:compile (selected)
+        javax.activation:activation:jar:1.1:compile (selected)
+    com.sun.xml.security:xml-security-impl:jar:1.0:compile (selected)
+Setting project property: junit:junit:jar -> C:\Users\ankit\.m2\repository\junit\junit\4.11\junit-4.11.jar
+Adding reference: junit:junit:jar
+Setting project property: org.hamcrest:hamcrest-core:jar -> C:\Users\ankit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+Adding reference: org.hamcrest:hamcrest-core:jar
+Setting project property: commons-httpclient:commons-httpclient:jar -> C:\Users\ankit\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar
+Adding reference: commons-httpclient:commons-httpclient:jar
+Setting project property: commons-logging:commons-logging:jar -> C:\Users\ankit\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar
+Adding reference: commons-logging:commons-logging:jar
+Setting project property: commons-codec:commons-codec:jar -> C:\Users\ankit\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar
+Adding reference: commons-codec:commons-codec:jar
+Setting project property: org.apache.commons:commons-lang3:jar -> C:\Users\ankit\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+Adding reference: org.apache.commons:commons-lang3:jar
+Setting project property: org.json:json:jar -> C:\Users\ankit\.m2\repository\org\json\json\20140107\json-20140107.jar
+Adding reference: org.json:json:jar
+Setting project property: org.codehaus.jackson:jackson-jaxrs:jar -> C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.4\jackson-jaxrs-1.9.4.jar
+Adding reference: org.codehaus.jackson:jackson-jaxrs:jar
+Setting project property: org.codehaus.jackson:jackson-core-asl:jar -> C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.4\jackson-core-asl-1.9.4.jar
+Adding reference: org.codehaus.jackson:jackson-core-asl:jar
+Setting project property: org.codehaus.jackson:jackson-mapper-asl:jar -> C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.4\jackson-mapper-asl-1.9.4.jar
+Adding reference: org.codehaus.jackson:jackson-mapper-asl:jar
+Setting project property: org.slf4j:slf4j-api:jar -> C:\Users\ankit\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar
+Adding reference: org.slf4j:slf4j-api:jar
+Setting project property: org.slf4j:slf4j-log4j12:jar -> C:\Users\ankit\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar
+Adding reference: org.slf4j:slf4j-log4j12:jar
+Setting project property: log4j:log4j:jar -> C:\Users\ankit\.m2\repository\log4j\log4j\1.2.15\log4j-1.2.15.jar
+Adding reference: log4j:log4j:jar
+Setting project property: javax.mail:mail:jar -> C:\Users\ankit\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+Adding reference: javax.mail:mail:jar
+Setting project property: javax.activation:activation:jar -> C:\Users\ankit\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+Adding reference: javax.activation:activation:jar
+Setting project property: com.sun.xml.security:xml-security-impl:jar -> C:\Users\ankit\.m2\repository\com\sun\xml\security\xml-security-impl\1.0\xml-security-impl-1.0.jar
+Adding reference: com.sun.xml.security:xml-security-impl:jar
+Adding reference: deps.fileset
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+fileset: Setup scanner in dir C:\Users\ankit\.m2\repository with patternSet{ includes: [junit/junit/4.11/junit-4.11.jar, org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar, commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar, commons-codec/commons-codec/1.2/commons-codec-1.2.jar, org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar, org/json/json/20140107/json-20140107.jar, org/codehaus/jackson/jackson-jaxrs/1.9.4/jackson-jaxrs-1.9.4.jar, org/codehaus/jackson/jackson-core-asl/1.9.4/jackson-core-asl-1.9.4.jar, org/codehaus/jackson/jackson-mapper-asl/1.9.4/jackson-mapper-asl-1.9.4.jar, org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar, org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar, log4j/log4j/1.2.15/log4j-1.2.15.jar, javax/mail/mail/1.4/mail-1.4.jar, javax/activation/activation/1.1/activation-1.1.jar, com/sun/xml/security/xml-security-impl/1.0/xml-security-impl-1.0.jar] excludes: [] }
+     [copy] com\sun\xml\security\xml-security-impl\1.0\xml-security-impl-1.0.jar added as xml-security-impl-1.0.jar doesn't exist.
+     [copy] commons-codec\commons-codec\1.2\commons-codec-1.2.jar added as commons-codec-1.2.jar doesn't exist.
+     [copy] commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar added as commons-httpclient-3.1.jar doesn't exist.
+     [copy] commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar added as commons-logging-1.0.4.jar doesn't exist.
+     [copy] javax\activation\activation\1.1\activation-1.1.jar added as activation-1.1.jar doesn't exist.
+     [copy] javax\mail\mail\1.4\mail-1.4.jar added as mail-1.4.jar doesn't exist.
+     [copy] junit\junit\4.11\junit-4.11.jar added as junit-4.11.jar doesn't exist.
+     [copy] log4j\log4j\1.2.15\log4j-1.2.15.jar added as log4j-1.2.15.jar doesn't exist.
+     [copy] org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar added as commons-lang3-3.1.jar doesn't exist.
+     [copy] org\codehaus\jackson\jackson-core-asl\1.9.4\jackson-core-asl-1.9.4.jar added as jackson-core-asl-1.9.4.jar doesn't exist.
+     [copy] org\codehaus\jackson\jackson-jaxrs\1.9.4\jackson-jaxrs-1.9.4.jar added as jackson-jaxrs-1.9.4.jar doesn't exist.
+     [copy] org\codehaus\jackson\jackson-mapper-asl\1.9.4\jackson-mapper-asl-1.9.4.jar added as jackson-mapper-asl-1.9.4.jar doesn't exist.
+     [copy] org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar added as hamcrest-core-1.3.jar doesn't exist.
+     [copy] org\json\json\20140107\json-20140107.jar added as json-20140107.jar doesn't exist.
+     [copy] org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar added as slf4j-api-1.7.25.jar doesn't exist.
+     [copy] org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar added as slf4j-log4j12-1.7.25.jar doesn't exist.
+     [copy] No sources found.
+     [copy] Copying 16 files to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+     [copy] Copying C:\Users\ankit\.m2\repository\com\sun\xml\security\xml-security-impl\1.0\xml-security-impl-1.0.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\junit\junit\4.11\junit-4.11.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\log4j\log4j\1.2.15\log4j-1.2.15.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.4\jackson-core-asl-1.9.4.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.4\jackson-jaxrs-1.9.4.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.4\jackson-mapper-asl-1.9.4.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\json\json\20140107\json-20140107.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar
+     [copy] Copying C:\Users\ankit\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar
+
+compile:
+    [mkdir] Skipping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\resources because it already exists.
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java with patternSet{ includes: [] excludes: [] }
+    [javac] org\demo\helper\GenericResourceBundle.java added as org\demo\helper\GenericResourceBundle.class doesn't exist.
+    [javac] org\demo\utilities\CaseInsensitiveComparator.java added as org\demo\utilities\CaseInsensitiveComparator.class doesn't exist.
+    [javac] org\demo\utilities\GenericComparator.java added as org\demo\utilities\GenericComparator.class doesn't exist.
+    [javac] org\demo\utilities\HexAsciiConvertor.java added as org\demo\utilities\HexAsciiConvertor.class doesn't exist.
+    [javac] org\demo\utilities\LoggerStackTraceUtil.java added as org\demo\utilities\LoggerStackTraceUtil.class doesn't exist.
+    [javac] org\demo\utilities\PrepareTargetMethod.java added as org\demo\utilities\PrepareTargetMethod.class doesn't exist.
+    [javac] org\demo\utilities\PropertyHelper.java added as org\demo\utilities\PropertyHelper.class doesn't exist.
+    [javac] org\demo\utilities\PropertyLoader.java added as org\demo\utilities\PropertyLoader.class doesn't exist.
+    [javac] org\demo\utilities\StringUtilities.java added as org\demo\utilities\StringUtilities.class doesn't exist.
+    [javac] Compiling 9 source files to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes
+    [javac] Using modern compiler
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib with patternSet{ includes: [] excludes: [] }
+    [javac] Compilation arguments:
+    [javac] '-deprecation'
+    [javac] '-d'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes'
+    [javac] '-classpath'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar'
+    [javac] '-sourcepath'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java'
+    [javac] '-target'
+    [javac] '1.6'
+    [javac] '-g'
+    [javac] '-source'
+    [javac] '1.6'
+    [javac] 
+    [javac] The ' characters around the executable and arguments are
+    [javac] not part of the command.
+    [javac] Files to be compiled:
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\helper\GenericResourceBundle.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\CaseInsensitiveComparator.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\GenericComparator.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\HexAsciiConvertor.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\LoggerStackTraceUtil.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\PrepareTargetMethod.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\PropertyHelper.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\PropertyLoader.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\StringUtilities.java
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\GenericComparator.java:221: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac] 		return obj.getClass().getMethod(targetMethod, null);
+    [javac] 		                                              ^
+    [javac]   cast to Class<?> for a varargs call
+    [javac]   cast to Class<?>[] for a non-varargs call and to suppress this warning
+    [javac] E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\java\org\demo\utilities\GenericComparator.java:235: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac] 		return method.invoke(obj, null);
+    [javac] 		                          ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] 3 warnings
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\resources\dev with patternSet{ includes: [] excludes: [] }
+     [copy] Dateformat.properties added as Dateformat.properties doesn't exist.
+     [copy]  omitted as E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes is up to date.
+     [copy] Copying 1 file to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes
+     [copy] Copying E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\resources\dev\Dateformat.properties to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes\Dateformat.properties
+
+compile-tests:
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java with patternSet{ includes: [] excludes: [] }
+    [javac] org\demo\utilities\ExceptionThrower.java added as org\demo\utilities\ExceptionThrower.class doesn't exist.
+    [javac] org\demo\utilities\TestGenericComparator.java added as org\demo\utilities\TestGenericComparator.class doesn't exist.
+    [javac] org\demo\utilities\TestHexAsciiConversion.java added as org\demo\utilities\TestHexAsciiConversion.class doesn't exist.
+    [javac] org\demo\utilities\TestLogger.java added as org\demo\utilities\TestLogger.class doesn't exist.
+    [javac] org\demo\utilities\UnitDTO.java added as org\demo\utilities\UnitDTO.class doesn't exist.
+    [javac] Compiling 5 source files to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes
+    [javac] Using modern compiler
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib with patternSet{ includes: [] excludes: [] }
+    [javac] Compilation arguments:
+    [javac] '-deprecation'
+    [javac] '-d'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes'
+    [javac] '-classpath'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes'
+    [javac] '-sourcepath'
+    [javac] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java'
+    [javac] '-target'
+    [javac] '1.6'
+    [javac] '-g'
+    [javac] '-source'
+    [javac] '1.6'
+    [javac] 
+    [javac] The ' characters around the executable and arguments are
+    [javac] not part of the command.
+    [javac] Files to be compiled:
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java\org\demo\utilities\ExceptionThrower.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java\org\demo\utilities\TestGenericComparator.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java\org\demo\utilities\TestHexAsciiConversion.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java\org\demo\utilities\TestLogger.java
+    [javac]     E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java\org\demo\utilities\UnitDTO.java
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\resources with patternSet{ includes: [] excludes: [] }
+     [copy] No sources found.
+     [copy]  omitted as E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes is up to date.
+
+test:
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports
+    [junit] Couldn't find junit/framework/TestCase.class
+    [junit] Found C:\apache-ant-1.10.7\lib\ant-launcher.jar
+    [junit] Found C:\apache-ant-1.10.7\lib\ant.jar
+    [junit] Found C:\apache-ant-1.10.7\lib\ant-junit.jar
+    [junit] Found C:\apache-ant-1.10.7\lib\ant-junit4.jar
+sysproperty added : basedir=.
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib with patternSet{ includes: [] excludes: [] }
+Finding class junit.framework.Test
+Loaded from E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar junit/framework/Test.class
+Class java.lang.Object loaded from parent loader (parentFirst)
+Class junit.framework.Test loaded from ant loader (parentFirst)
+Finding class org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskMirrorImpl
+Loaded from C:\apache-ant-1.10.7\lib\ant-junit.jar org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.class
+Class org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskMirror loaded from parent loader (parentFirst)
+Class java.lang.ClassLoader loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.AntClassLoader loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskMirror$JUnitTestRunnerMirror loaded from parent loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.optional.junit.JUnitTaskMirror$SummaryJUnitResultFormatterMirror loaded from parent loader (parentFirst)
+Class java.lang.Throwable loaded from parent loader (parentFirst)
+Finding class junit.framework.AssertionFailedError
+Loaded from E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar junit/framework/AssertionFailedError.class
+Class java.lang.AssertionError loaded from parent loader (parentFirst)
+Class junit.framework.AssertionFailedError loaded from ant loader (parentFirst)
+Class org.apache.tools.ant.taskdefs.optional.junit.JUnitTask loaded from parent loader (parentFirst)
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\test\java with patternSet{ includes: [**/Test*.java, **/*Test.java, **/*TestCase.java] excludes: [**/*Abstract*Test.java] }
+    [junit] Implicitly adding C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar to CLASSPATH
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+    [junit] Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+    [junit] '-Dbasedir=.'
+    [junit] '-classpath'
+    [junit] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+    [junit] 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+    [junit] 'org.demo.utilities.TestGenericComparator'
+    [junit] 'skipNonTests=false'
+    [junit] 'filtertrace=true'
+    [junit] 'haltOnError=false'
+    [junit] 'haltOnFailure=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+    [junit] 'showoutput=false'
+    [junit] 'outputtoformatters=true'
+    [junit] 'logfailedtests=true'
+    [junit] 'threadid=0'
+    [junit] 'logtestlistenerevents=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestGenericComparator.xml'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+    [junit] 'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher5042294732873163153.properties'
+    [junit] 'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit3563855221040586403.properties'
+    [junit] 
+    [junit] The ' characters around the executable and arguments are
+    [junit] not part of the command.
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+Execute:Java13CommandLauncher: Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+'-Dbasedir=.'
+'-classpath'
+'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+'org.demo.utilities.TestGenericComparator'
+'skipNonTests=false'
+'filtertrace=true'
+'haltOnError=false'
+'haltOnFailure=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+'showoutput=false'
+'outputtoformatters=true'
+'logfailedtests=true'
+'threadid=0'
+'logtestlistenerevents=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestGenericComparator.xml'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher5042294732873163153.properties'
+'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit3563855221040586403.properties'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [junit] Running org.demo.utilities.TestGenericComparator
+    [junit] Testsuite: org.demo.utilities.TestGenericComparator
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.627 sec
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.627 sec
+    [junit] 
+    [junit] Testcase: testSortEmpIDAsc took 0.153 sec
+    [junit] Testcase: testSortEmpNameAsc took 0.002 sec
+    [junit] Testcase: testSortEmpIDDesc took 0.003 sec
+    [junit] Testcase: testSortEmpNameAscNewComparator took 0.107 sec
+    [junit] Testcase: testSortEmpSpare2StringAsc took 0 sec
+    [junit] Testcase: testDoubleSort took 0.003 sec
+    [junit] Testcase: testSortEmpSpare2StringDesc took 0 sec
+    [junit] Testcase: testSortEmpNameDescNewComparator3Element took 0.002 sec
+    [junit] Testcase: testSortEmpSpareDesc2 took 0 sec
+    [junit] Testcase: testSortEmpNameAscNewComparator3Element took 0.003 sec
+    [junit] Testcase: testSortEmpSpareAsc2 took 0 sec
+    [junit] Testcase: testSortEmpSpareDesc took 0.01 sec
+    [junit] Testcase: testSortEmpNameDesc took 0.002 sec
+    [junit] Testcase: testSortEmpSpareAsc took 0 sec
+    [junit] Implicitly adding C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar to CLASSPATH
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+    [junit] Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+    [junit] '-Dbasedir=.'
+    [junit] '-classpath'
+    [junit] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+    [junit] 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+    [junit] 'org.demo.utilities.TestHexAsciiConversion'
+    [junit] 'skipNonTests=false'
+    [junit] 'filtertrace=true'
+    [junit] 'haltOnError=false'
+    [junit] 'haltOnFailure=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+    [junit] 'showoutput=false'
+    [junit] 'outputtoformatters=true'
+    [junit] 'logfailedtests=true'
+    [junit] 'threadid=0'
+    [junit] 'logtestlistenerevents=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestHexAsciiConversion.xml'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+    [junit] 'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher5271598610400209026.properties'
+    [junit] 'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit3496921701698572382.properties'
+    [junit] 
+    [junit] The ' characters around the executable and arguments are
+    [junit] not part of the command.
+Execute:Java13CommandLauncher: Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+'-Dbasedir=.'
+'-classpath'
+'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+'org.demo.utilities.TestHexAsciiConversion'
+'skipNonTests=false'
+'filtertrace=true'
+'haltOnError=false'
+'haltOnFailure=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+'showoutput=false'
+'outputtoformatters=true'
+'logfailedtests=true'
+'threadid=0'
+'logtestlistenerevents=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestHexAsciiConversion.xml'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher5271598610400209026.properties'
+'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit3496921701698572382.properties'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [junit] Running org.demo.utilities.TestHexAsciiConversion
+    [junit] Testsuite: org.demo.utilities.TestHexAsciiConversion
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 sec
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] testing ascii convertion into hexadecimal
+    [junit] 74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testHexToAsciiValid took 0.008 sec
+    [junit] Testcase: testAsciiToHexNull took 0 sec
+    [junit] Testcase: testHextoAsciiNull took 0 sec
+    [junit] Testcase: testAsciiToHexValid took 0 sec
+    [junit] Implicitly adding C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar to CLASSPATH
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%CLASSPATH% from path as it doesn't exist
+dropping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\%JUNIT_JOME%\junit4.10.jar from path as it doesn't exist
+    [junit] Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+    [junit] '-Dbasedir=.'
+    [junit] '-classpath'
+    [junit] 'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+    [junit] 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+    [junit] 'org.demo.utilities.TestLogger'
+    [junit] 'skipNonTests=false'
+    [junit] 'filtertrace=true'
+    [junit] 'haltOnError=false'
+    [junit] 'haltOnFailure=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+    [junit] 'showoutput=false'
+    [junit] 'outputtoformatters=true'
+    [junit] 'logfailedtests=true'
+    [junit] 'threadid=0'
+    [junit] 'logtestlistenerevents=false'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestLogger.xml'
+    [junit] 'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+    [junit] 'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher3221290326757746422.properties'
+    [junit] 'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit2628831657215866769.properties'
+    [junit] 
+    [junit] The ' characters around the executable and arguments are
+    [junit] not part of the command.
+Execute:Java13CommandLauncher: Executing 'C:\Program Files\Java\jdk1.8.0_231\jre\bin\java.exe' with arguments:
+'-Dbasedir=.'
+'-classpath'
+'E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes;E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-classes;C:\apache-ant-1.10.7\lib\ant-launcher.jar;C:\apache-ant-1.10.7\lib\ant.jar;C:\apache-ant-1.10.7\lib\ant-junit.jar;C:\apache-ant-1.10.7\lib\ant-junit4.jar'
+'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner'
+'org.demo.utilities.TestLogger'
+'skipNonTests=false'
+'filtertrace=true'
+'haltOnError=false'
+'haltOnFailure=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter'
+'showoutput=false'
+'outputtoformatters=true'
+'logfailedtests=true'
+'threadid=0'
+'logtestlistenerevents=false'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\test-reports\TEST-org.demo.utilities.TestLogger.xml'
+'formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter'
+'crashfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junitvmwatcher3221290326757746422.properties'
+'propsfile=E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\junit2628831657215866769.properties'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [junit] Running org.demo.utilities.TestLogger
+    [junit] Testsuite: org.demo.utilities.TestLogger
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 sec
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 sec
+    [junit] ------------- Standard Error -----------------
+    [junit] log4j:WARN No appenders could be found for logger (org.demo.utilities.TestLogger).
+    [junit] log4j:WARN Please initialize the log4j system properly.
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testGetErrorMessage1 took 0.055 sec
+    [junit] Testcase: testGetErrorMessage2 took 0.003 sec
+    [junit] Testcase: testGetErrorMessage3 took 0.02 sec
+    [junit] Testcase: testGetErrorMessage4 took 0.003 sec
+    [junit] Testcase: testGetErrorMessage5 took 0.012 sec
+    [junit] Starting test thread 0
+    [junit] Ending test thread 0
+
+package:
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib with patternSet{ includes: [] excludes: [] }
+[pathconvert] Set property manifest.classpath = ./lib/activation-1.1.jar ./lib/commons-codec-1.2.jar ./lib/commons-httpclient-3.1.jar ./lib/commons-lang3-3.1.jar ./lib/commons-logging-1.0.4.jar ./lib/hamcrest-core-1.3.jar ./lib/jackson-core-asl-1.9.4.jar ./lib/jackson-jaxrs-1.9.4.jar ./lib/jackson-mapper-asl-1.9.4.jar ./lib/json-20140107.jar ./lib/junit-4.11.jar ./lib/log4j-1.2.15.jar ./lib/mail-1.4.jar ./lib/slf4j-api-1.7.25.jar ./lib/slf4j-log4j12-1.7.25.jar ./lib/xml-security-impl-1.0.jar
+Setting project property: manifest.classpath -> ./lib/activation-1.1.jar ./lib/commons-codec-1.2.jar ./lib/commons-httpclient-3.1.jar ./lib/commons-lang3-3.1.jar ./lib/commons-logging-1.0.4.jar ./lib/hamcrest-core-1.3.jar ./lib/jackson-core-asl-1.9.4.jar ./lib/jackson-jaxrs-1.9.4.jar ./lib/jackson-mapper-asl-1.9.4.jar ./lib/json-20140107.jar ./lib/junit-4.11.jar ./lib/log4j-1.2.15.jar ./lib/mail-1.4.jar ./lib/slf4j-api-1.7.25.jar ./lib/slf4j-log4j12-1.7.25.jar ./lib/xml-security-impl-1.0.jar
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\classes with patternSet{ includes: [] excludes: [**/package.html] }
+      [jar] Building jar: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\utilities-1.47.0.jar
+      [jar] adding directory META-INF/
+      [jar] adding entry META-INF/MANIFEST.MF
+      [jar] adding directory org/
+      [jar] adding directory org/demo/
+      [jar] adding directory org/demo/helper/
+      [jar] adding directory org/demo/utilities/
+      [jar] adding entry Dateformat.properties
+      [jar] adding entry org/demo/helper/GenericResourceBundle.class
+      [jar] adding entry org/demo/utilities/CaseInsensitiveComparator.class
+      [jar] adding entry org/demo/utilities/GenericComparator$1.class
+      [jar] adding entry org/demo/utilities/GenericComparator$CompareMode.class
+      [jar] adding entry org/demo/utilities/GenericComparator.class
+      [jar] adding entry org/demo/utilities/HexAsciiConvertor.class
+      [jar] adding entry org/demo/utilities/LoggerStackTraceUtil.class
+      [jar] adding entry org/demo/utilities/PrepareTargetMethod.class
+      [jar] adding entry org/demo/utilities/PropertyHelper.class
+      [jar] adding entry org/demo/utilities/PropertyLoader.class
+      [jar] adding entry org/demo/utilities/StringUtilities.class
+
+zip:
+Property "zipoutput" has not been set
+Setting project property: zipoutputdir -> ./target
+     [echo] Copying files from ./src/main/resources/dev to ./target/tmp
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp
+    [mkdir] Skipping E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target because it already exists.
+     [echo] Resource Directory: ./src/main/resources/dev
+fileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\resources\dev with patternSet{ includes: [] excludes: [] }
+     [copy] Copying 2 files to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp
+     [copy] Copying E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\src\main\resources\dev\Dateformat.properties to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp\Dateformat.properties
+     [copy] Copying E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\utilities-1.47.0.jar to E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp\utilities-1.47.0.jar
+zipfileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp with patternSet{ includes: [*.properties, *.xml, *.txt, utilities-1.47.0.jar] excludes: [] }
+zipfileset: Setup scanner in dir E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib with patternSet{ includes: [] excludes: [] }
+      [zip] Building zip: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\utilities-1.47.0.zip
+      [zip] adding entry Dateformat.properties
+      [zip] adding entry utilities-1.47.0.jar
+      [zip] adding directory lib/
+      [zip] adding entry lib/activation-1.1.jar
+      [zip] adding entry lib/commons-codec-1.2.jar
+      [zip] adding entry lib/commons-httpclient-3.1.jar
+      [zip] adding entry lib/commons-lang3-3.1.jar
+      [zip] adding entry lib/commons-logging-1.0.4.jar
+      [zip] adding entry lib/hamcrest-core-1.3.jar
+      [zip] adding entry lib/jackson-core-asl-1.9.4.jar
+      [zip] adding entry lib/jackson-jaxrs-1.9.4.jar
+      [zip] adding entry lib/jackson-mapper-asl-1.9.4.jar
+      [zip] adding entry lib/json-20140107.jar
+      [zip] adding entry lib/junit-4.11.jar
+      [zip] adding entry lib/log4j-1.2.15.jar
+      [zip] adding entry lib/mail-1.4.jar
+      [zip] adding entry lib/slf4j-api-1.7.25.jar
+      [zip] adding entry lib/slf4j-log4j12-1.7.25.jar
+      [zip] adding entry lib/xml-security-impl-1.0.jar
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp\Dateformat.properties
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp\utilities-1.47.0.jar
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\target\tmp
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\activation-1.1.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-codec-1.2.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-httpclient-3.1.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-lang3-3.1.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\commons-logging-1.0.4.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\hamcrest-core-1.3.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-core-asl-1.9.4.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-jaxrs-1.9.4.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\jackson-mapper-asl-1.9.4.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\json-20140107.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\junit-4.11.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\log4j-1.2.15.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\mail-1.4.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-api-1.7.25.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\slf4j-log4j12-1.7.25.jar
+   [delete] Deleting E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib\xml-security-impl-1.0.jar
+   [delete] Deleting directory E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+    [mkdir] Created dir: E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\lib
+   [delete] Could not find file E:\edureka\jenkins assesment\demojar_v.1.0\demojar-master\utilities-1.47.0.zip to delete.
+
+BUILD SUCCESSFUL
+Total time: 13 seconds

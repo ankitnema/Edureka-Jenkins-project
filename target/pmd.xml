@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2020-05-18T20:33:59.030">
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\helper\GenericResourceBundle.java">
+<violation beginline="6" endline="22" begincolumn="36" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.demo.helper" class="GenericResourceBundle" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="7" endline="7" begincolumn="44" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.helper" class="GenericResourceBundle" method="getProperties" variable="source" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'source' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.helper" class="GenericResourceBundle" method="getProperties" variable="rb" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rb' could be declared final
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.helper" class="GenericResourceBundle" method="getProperties" variable="keys" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keys' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="25" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.helper" class="GenericResourceBundle" method="getProperties" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\CaseInsensitiveComparator.java">
+<violation beginline="19" endline="19" begincolumn="42" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" variable="sortAscending" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortAscending' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="42" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" variable="sortField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortField' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="60" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" variable="sortAscending" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortAscending' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="42" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" variable="sortField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortField' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compare" variable="o1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o1' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="39" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compare" variable="o2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o2' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compare" variable="cm" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cm' could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="59" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compareActual" variable="returnType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'returnType' is not assigned and could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="37" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compareActual" variable="v1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v1' is not assigned and could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="48" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="CaseInsensitiveComparator" method="compareActual" variable="v2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v2' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\GenericComparator.java">
+<violation beginline="20" endline="277" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'GenericComparator' has a Cyclomatic Complexity of 3 (Highest = 10).
+</violation>
+<violation beginline="51" endline="51" begincolumn="34" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" variable="sortAscending" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortAscending' is not assigned and could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="34" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" variable="sortField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortField' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="52" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" variable="sortAscending" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortAscending' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="34" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" variable="sortField" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'sortField' is not assigned and could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="28" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compare" variable="o1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o1' is not assigned and could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="39" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compare" variable="o2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o2' is not assigned and could be declared final
+</violation>
+<violation beginline="126" endline="126" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compare" variable="cm" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cm' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="40" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compareAlternate" variable="cm" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cm' is not assigned and could be declared final
+</violation>
+<violation beginline="156" endline="166" begincolumn="17" endcolumn="17" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="org.demo.utilities" class="GenericComparator" method="compareAlternate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="177" endline="177" begincolumn="57" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compareActual" variable="returnType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'returnType' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="35" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compareActual" variable="v1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v1' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="46" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="compareActual" variable="v2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'v2' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="200" begincolumn="17" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" class="GenericComparator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'compareActual' has a Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="207" endline="207" begincolumn="59" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="prepareTargetMethod" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="208" endline="208" begincolumn="17" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="prepareTargetMethod" variable="fieldName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fieldName' could be declared final
+</violation>
+<violation beginline="220" endline="220" begincolumn="42" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="getMethod" variable="obj" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="234" endline="234" begincolumn="44" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="invoke" variable="method" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'method' is not assigned and could be declared final
+</violation>
+<violation beginline="234" endline="234" begincolumn="59" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="invoke" variable="obj" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="246" endline="246" begincolumn="35" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="getValue" variable="obj" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="256" endline="256" begincolumn="47" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="findCompareMode" variable="o1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o1' is not assigned and could be declared final
+</violation>
+<violation beginline="256" endline="256" begincolumn="58" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="GenericComparator" method="findCompareMode" variable="o2" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o2' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\HexAsciiConvertor.java">
+<violation beginline="3" endline="59" begincolumn="32" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.demo.utilities" class="HexAsciiConvertor" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="11" endline="11" begincolumn="48" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertHexToASCII" variable="hexValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'hexValue' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="17" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertHexToASCII" variable="outputAscii" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'outputAscii' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="33" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertHexToASCII" variable="str" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'str' could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="48" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertAsciiToHex" variable="asciiValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'asciiValue' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="31" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertAsciiToHex" variable="chars" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'chars' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="31" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="HexAsciiConvertor" method="convertAsciiToHex" variable="hex" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'hex' could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\LoggerStackTraceUtil.java">
+<violation beginline="10" endline="10" begincolumn="21" endcolumn="28" rule="ImmutableField" ruleset="Design" package="org.demo.utilities" class="LoggerStackTraceUtil" variable="maxCount" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#ImmutableField" priority="3">
+Private field 'maxCount' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="19" endline="19" begincolumn="39" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="LoggerStackTraceUtil" method="getErrorMessage" variable="th" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'th' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="17" endcolumn="40" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="LoggerStackTraceUtil" method="getErrorMessage" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="21" endline="21" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="LoggerStackTraceUtil" method="getErrorMessage" variable="b" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'b' could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="17" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="LoggerStackTraceUtil" method="getErrorMessage" variable="aryError" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'aryError' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="46" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="LoggerStackTraceUtil" method="printErrorMessage" variable="th" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'th' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="30" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="LoggerStackTraceUtil" method="printErrorMessage" variable="stackTrace" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stackTrace' could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\PrepareTargetMethod.java">
+<violation beginline="12" endline="12" begincolumn="43" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PrepareTargetMethod" method="prepareTargetMethod" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="17" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PrepareTargetMethod" method="prepareTargetMethod" variable="fieldName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fieldName' could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\PropertyHelper.java">
+<violation beginline="20" endline="96" begincolumn="35" endcolumn="2" rule="UseUtilityClass" ruleset="Design" package="org.demo.utilities" class="PropertyHelper" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="25" endline="25" begincolumn="24" endcolumn="93" rule="AvoidProtectedFieldInFinalClass" ruleset="Design" package="org.demo.utilities" class="PropertyHelper" variable="HMAPPROPERTIES" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#AvoidProtectedFieldInFinalClass" priority="3">
+Avoid protected fields in a final class.  Change to private or package access.
+</violation>
+<violation beginline="32" endline="32" begincolumn="54" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="loadProperties" variable="propertyFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propertyFile' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="10" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="loadProperties" variable="properties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'properties' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="10" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="loadProperties" variable="keys" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keys' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="23" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="loadProperties" variable="tmpKey" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'tmpKey' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="34" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="getProperty" variable="propertyName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propertyName' is not assigned and could be declared final
+</violation>
+<violation beginline="57" endline="58" begincolumn="10" endcolumn="10" rule="EmptyFinallyBlock" ruleset="Empty Code" package="org.demo.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyFinallyBlock" priority="3">
+Avoid empty finally blocks
+</violation>
+<violation beginline="68" endline="68" begincolumn="34" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="getProperty" variable="propertyName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propertyName' is not assigned and could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="54" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="getProperty" variable="strDefault" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'strDefault' is not assigned and could be declared final
+</violation>
+<violation beginline="82" endline="83" begincolumn="10" endcolumn="10" rule="EmptyFinallyBlock" ruleset="Empty Code" package="org.demo.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyFinallyBlock" priority="3">
+Avoid empty finally blocks
+</violation>
+<violation beginline="93" endline="93" begincolumn="26" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyHelper" method="get" variable="propertyName" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'propertyName' is not assigned and could be declared final
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\PropertyLoader.java">
+<violation beginline="29" endline="107" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'PropertyLoader' has a Cyclomatic Complexity of 8 (Highest = 15).
+</violation>
+<violation beginline="29" endline="107" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'PropertyLoader' has a Modified Cyclomatic Complexity of 8 (Highest = 14).
+</violation>
+<violation beginline="29" endline="107" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'PropertyLoader' has a Standard Cyclomatic Complexity of 8 (Highest = 14).
+</violation>
+<violation beginline="30" endline="107" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.demo.utilities" class="PropertyLoader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="39" endline="39" begincolumn="37" endcolumn="39" rule="UnusedPrivateField" ruleset="Unused Code" package="org.demo.utilities" class="PropertyLoader" variable="LOG" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="51" endline="51" begincolumn="64" endcolumn="81" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="loader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'loader' is not assigned and could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="50" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="names" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'names' is not assigned and could be declared final
+</violation>
+<violation beginline="51" endline="105" begincolumn="23" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" class="PropertyLoader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'loadProperties' has a Cyclomatic Complexity of 15.
+</violation>
+<violation beginline="51" endline="105" begincolumn="23" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" class="PropertyLoader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'loadProperties' has a Modified Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="51" endline="105" begincolumn="23" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" class="PropertyLoader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'loadProperties' has a Standard Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="51" endline="105" begincolumn="23" endcolumn="9" rule="NPathComplexity" ruleset="Code Size" package="org.demo.utilities" class="PropertyLoader" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#NPathComplexity" priority="3">
+The method loadProperties() has an NPath complexity of 576
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="34" rule="PrematureDeclaration" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="54" endline="54" begincolumn="17" endcolumn="35" rule="PrematureDeclaration" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="loaders" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="54" endline="54" begincolumn="29" endcolumn="35" rule="UnusedLocalVariable" ruleset="Unused Code" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="loaders" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'loaders'.
+</violation>
+<violation beginline="55" endline="55" begincolumn="17" endcolumn="91" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="56" endline="56" begincolumn="17" endcolumn="71" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="56" endline="56" begincolumn="21" endcolumn="42" rule="SimplifyStartsWith" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#SimplifyStartsWith" priority="3">
+This call to String.startsWith can be rewritten using String.charAt(0)
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="108" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="61" endline="62" begincolumn="25" endcolumn="78" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="68" endline="68" begincolumn="38" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" variable="keys" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'keys' could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="33" endcolumn="90" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="78" endline="79" begincolumn="33" endcolumn="79" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="91" endline="96" begincolumn="25" endcolumn="51" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="96" endline="96" begincolumn="25" endcolumn="51" rule="EmptyCatchBlock" ruleset="Empty Code" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="98" endline="98" begincolumn="47" endcolumn="60" rule="UselessParentheses" ruleset="Unnecessary" package="org.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="E:\Edureka\Jenkins assesment\demojar_project\demojar-master\demojar-master\src\main\java\org\demo\utilities\StringUtilities.java">
+<violation beginline="23" endline="194" begincolumn="30" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.demo.utilities" class="StringUtilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="23" endline="194" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'StringUtilities' has a Cyclomatic Complexity of 7 (Highest = 14).
+</violation>
+<violation beginline="66" endline="66" begincolumn="37" endcolumn="39" rule="UnusedPrivateField" ruleset="Unused Code" package="org.demo.utilities" class="StringUtilities" variable="LOG" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="87" endline="87" begincolumn="56" endcolumn="79" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" variable="strParamValueList" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'strParamValueList' is not assigned and could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="81" endcolumn="91" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" variable="type" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'type' is not assigned and could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="17" endcolumn="94" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="89" endline="89" begincolumn="17" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" variable="list" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="13" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" variable="arr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'arr' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="17" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToList" variable="tmpString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'tmpString' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="67" endcolumn="93" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="createParameterList" variable="strParamValueList" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'strParamValueList' is not assigned and could be declared final
+</violation>
+<violation beginline="106" endline="106" begincolumn="17" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="createParameterList" variable="hMap" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'hMap' could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="33" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="createParameterList" variable="arr" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'arr' could be declared final
+</violation>
+<violation beginline="132" endline="132" begincolumn="53" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="types" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'types' is not assigned and could be declared final
+</violation>
+<violation beginline="132" endline="132" begincolumn="39" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="value" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="132" endline="171" begincolumn="24" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="org.demo.utilities" class="StringUtilities" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'convert' has a Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="134" endline="134" begincolumn="17" endcolumn="42" rule="PrematureDeclaration" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="finalClass" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="136" endline="136" begincolumn="17" endcolumn="145" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="136" endline="136" begincolumn="22" endcolumn="34" rule="UselessParentheses" ruleset="Unnecessary" package="org.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="138" endline="138" begincolumn="17" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="type" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'type' could be declared final
+</violation>
+<violation beginline="138" endline="138" begincolumn="31" endcolumn="49" rule="UseLocaleWithCaseConversions" ruleset="Design" package="org.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseLocaleWithCaseConversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="140" endline="140" begincolumn="17" endcolumn="78" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="144" endline="145" begincolumn="17" endcolumn="71" rule="IfStmtsMustUseBraces" ruleset="Braces" package="org.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="150" endline="150" begincolumn="33" endcolumn="105" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="method" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'method' could be declared final
+</violation>
+<violation beginline="151" endline="151" begincolumn="33" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convert" variable="mods" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mods' could be declared final
+</violation>
+<violation beginline="178" endline="178" begincolumn="51" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToDate" variable="dateString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dateString' is not assigned and could be declared final
+</violation>
+<violation beginline="183" endline="183" begincolumn="31" endcolumn="71" rule="UselessParentheses" ruleset="Unnecessary" package="org.demo.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="184" endline="184" begincolumn="34" endcolumn="74" rule="UselessParentheses" ruleset="Unnecessary" package="org.demo.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="185" endline="185" begincolumn="17" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="org.demo.utilities" class="StringUtilities" method="convertStringToDate" variable="dateFormatter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dateFormatter' could be declared final
+</violation>
+<violation beginline="185" endline="185" begincolumn="50" endcolumn="81" rule="SimpleDateFormatNeedsLocale" ruleset="Design" package="org.demo.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#SimpleDateFormatNeedsLocale" priority="3">
+When instantiating a SimpleDateFormat object, specify a Locale
+</violation>
+</file>
+</pmd>
