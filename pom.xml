@@ -15,12 +15,14 @@
 	<!-- TODO -->
 	<!-- Need to set the environment variables for the above parameters for development -->
 
+    <scm>
+        <connection>scm:git:git@github.com:ankitnema/Edureka-Jenkins-project.git</connection>
+        <developerConnection>scm:git:git@github.com:ankitnema/Edureka-Jenkins-project.git</developerConnection>
+        <url>scm:git:git@github.com:ankitnema/Edureka-Jenkins-project.git</url>
+    </scm>
+
 	<distributionManagement>
-		<snapshotRepository>
-			<id>Ankit</id>
-			<name>utility</name>
-			<url>${env.ART_URL}</url>
-		</snapshotRepository>
+
 		<repository>
 		<id>${env.REL_ART_ID}</id>
 			<name>${env.REL_ART_NAME}</name>
