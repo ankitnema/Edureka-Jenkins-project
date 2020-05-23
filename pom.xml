@@ -4,7 +4,7 @@
 	<groupId>org.demo</groupId>
 	<artifactId>utilities</artifactId>
 	<packaging>jar</packaging>
-	<version>1.47.0</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<name>utilities</name>
 	<url>http://maven.apache.org</url>
 
@@ -28,7 +28,7 @@
 			<url>https://github.com/ankitnema/Edureka-Jenkins-project.git</url>
 		</snapshotRepository>
 		<repository>
-		<id>Ankit</id>
+			<id>Ankit</id>
 			<name>utility</name>
 			<url>https://github.com/ankitnema/Edureka-Jenkins-project.git</url>
 		</repository>
