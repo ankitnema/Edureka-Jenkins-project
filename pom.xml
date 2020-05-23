@@ -22,11 +22,15 @@
     </scm>
 
 	<distributionManagement>
-
+		<snapshotRepository>
+			<id>Ankit</id>
+			<name>utility</name>
+			<url>https://github.com/ankitnema/Edureka-Jenkins-project.git</url>
+		</snapshotRepository>
 		<repository>
-		<id>${env.REL_ART_ID}</id>
-			<name>${env.REL_ART_NAME}</name>
-			<url>${env.REL_ART_URL}</url>
+		<id>Ankit</id>
+			<name>utility</name>
+			<url>https://github.com/ankitnema/Edureka-Jenkins-project.git</url>
 		</repository>
 
 	</distributionManagement>
